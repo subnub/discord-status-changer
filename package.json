@@ -1,0 +1,25 @@
+{
+  "name": "discord-status-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-cron": "^3.0.2",
+    "password-prompt": "^1.1.2",
+    "puppeteer": "^17.1.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "python-shell": "^3.0.1",
+    "random-useragent": "^0.5.0",
+    "user-agents": "^1.0.1128"
+  }
+}
